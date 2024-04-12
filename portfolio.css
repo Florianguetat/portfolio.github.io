@@ -57,7 +57,7 @@ h2{
 	text-align:center;
 	scroll-margin-top: 60px;
 }
-img[src="photo.png"]{
+img[src="../images/photo.png"]{
 	max-height :250px;
 	float : right;
 	padding-right:10px;
@@ -91,7 +91,7 @@ br{
 	border:solid;
 }
 
-p>img[src="Hanoi.png"]{
+p>img[src="../images/Hanoi.png"]{
 		max-height :400px;
 		float : left ;
 		padding-left:100px;
@@ -99,21 +99,21 @@ p>img[src="Hanoi.png"]{
 
   }
 
-p>img[src="Hanoi2.png"]{
+p>img[src="../images/Hanoi2.png"]{
 	max-height :400px;
 	float : right;
 	padding-right:100px;
 	border-radius:0px;
   }
 
-p>img[src="texte code.png"]{
+p>img[src="../images/texte code.png"]{
 	max-height :400px;
 	float : center;
 	padding-right:30px;
 	border-radius:0px;
   }
 
-p>img[src="projet.png"]{
+p>img[src="../images/projet.png"]{
 	max-height :300px;
 	float : center;
 	padding-right:35px;
@@ -121,7 +121,7 @@ p>img[src="projet.png"]{
 	border-radius:0px;
   }
 
-p>img[src="Projet interaction.png"] {
+p>img[src="../images/Projet interaction.png"] {
 	max-height :300px;
 	float : center;
 	padding-right:35px;
@@ -129,7 +129,7 @@ p>img[src="Projet interaction.png"] {
 	border-radius:0px;
   }
 
-  p>img[src="IUT.png"]{
+  p>img[src="../images/IUT.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -137,7 +137,7 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 35px;
 	border-radius:60px;
   }
-  img[src="Lachenal.png"]{
+  img[src="../images/Lachenal.png"]{
 	max-height :350px;
 	float : center;
 	padding-right:35px;
@@ -145,14 +145,14 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 35px;
 	border-radius:50px;
   }
-  img[src="Fays.png"]{
+  img[src="../images/Fays.png"]{
 	max-height :180px;
 	float : center;
 	padding-right:35px;
 	padding-top:30px;
 	border-radius:40px;
   }
-  img[src="Céjo.png"]{
+  img[src="../images/Céjo.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -160,7 +160,7 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 35px;
 	border-radius:50px;
   }
-  img[src="Annecy.png"]{
+  img[src="../images/Annecy.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -168,7 +168,7 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:40px;
   }
-  img[src="USP.png"]{
+  img[src="../images/USP.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -176,7 +176,7 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:40px;
   }
-  img[src="Skiclub.png"]{
+  img[src="../images/Skiclub.png"]{
 	max-height :650px;
 	float : center;
 	padding-right:35px;
@@ -184,7 +184,7 @@ p>img[src="Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:60px;
   }
-  img[src="VTT.png"]{
+  img[src="../images/VTT.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
