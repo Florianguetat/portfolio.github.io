@@ -1,9 +1,9 @@
-header{
-	text-align:left;
-	font-size: large;+
-	margin:auto;
-	width:1150px;
-	font-family:trebuchet;	
+header {
+    text-align: left;
+    font-size: large;
+    margin: 60px auto 0;
+    width: 1150px;
+    font-family: trebuchet;   
 }
 header>h2{
 	text-align:left;
@@ -24,8 +24,9 @@ nav {
     font-size: large;
     left: 0;
     right: 0;
+    top: 0; 
+    z-index: 999; 
 }
-
 
 nav>a{
 	padding-left:0;
@@ -35,7 +36,7 @@ nav>a{
 	font-size:23px;
 }
 a{
-	color:#F0EAD6;
+	color:white;
 	text-decoration:none;
 	padding: 1em;
 	margin: 1em;
@@ -44,36 +45,38 @@ body{
 	width: 1200px;
 	margin: auto;
 	text-align:center;
-	background-color: #F0EAD6;
+	background-color: white;
 	font-size:25px;
 }
-main{
-	border:solid;
-	background-color:#F0EAD6;
-	border-radius: 6px;
-	margin-top:60px;
+main {
+    border: solid;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 120px;
 }
 h2{
 	text-align:center;
 	scroll-margin-top: 60px;
 }
-img[src="./images/photo.png"]{
+img[src="../images/photo.png"]{
 	max-height :250px;
 	float : right;
 	padding-right:10px;
 	border-radius:90px;
 }
 p{
-	text-align:center;
+	text-align: left;
 	font-size:22px;
 }
 p>a{
 	color:blue;
 	text-decoration: underline;
+	text-align: center;
 }
 li>a{
 	color:blue;
 	text-decoration: underline;
+	text-align: center;
 }
 li{
 	text-align:center;
@@ -85,13 +88,14 @@ ul{
 ul li::before{
 	content:"-";
 	margin-right: 0.5em;
+	text-align: center;
 	
 }
 br{
 	border:solid;
 }
 
-p>img[src="./images/Hanoi.png"]{
+img[src="../images/Hanoi.png"]{
 		max-height :400px;
 		float : left ;
 		padding-left:100px;
@@ -99,21 +103,21 @@ p>img[src="./images/Hanoi.png"]{
 
   }
 
-p>img[src="./images/Hanoi2.png"]{
+img[src="../images/Hanoi2.png"]{
 	max-height :400px;
 	float : right;
 	padding-right:100px;
 	border-radius:0px;
   }
 
-p>img[src="./images/texte code.png"]{
+img[src="../images/texte code.png"]{
 	max-height :400px;
 	float : center;
 	padding-right:30px;
 	border-radius:0px;
   }
 
-p>img[src="./images/projet.png"]{
+img[src="../images/projet.png"]{
 	max-height :300px;
 	float : center;
 	padding-right:35px;
@@ -121,7 +125,7 @@ p>img[src="./images/projet.png"]{
 	border-radius:0px;
   }
 
-p>img[src="./images/Projet interaction.png"] {
+img[src="../images/Projet interaction.png"] {
 	max-height :300px;
 	float : center;
 	padding-right:35px;
@@ -129,15 +133,14 @@ p>img[src="./images/Projet interaction.png"] {
 	border-radius:0px;
   }
 
-  p>img[src="./images/IUT.png"]{
+img[src="../images/IUT.png"]{
 	max-height :450px;
 	float : center;
-	padding-right:35px;
 	padding-top:30px;
 	padding-bottom: 35px;
 	border-radius:60px;
   }
-  img[src="./images/Lachenal.png"]{
+  img[src="../images/Lachenal.png"]{
 	max-height :350px;
 	float : center;
 	padding-right:35px;
@@ -145,14 +148,14 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 35px;
 	border-radius:50px;
   }
-  img[src="./images/Fays.png"]{
+  img[src="../images/Fays.png"]{
 	max-height :180px;
 	float : center;
 	padding-right:35px;
 	padding-top:30px;
 	border-radius:40px;
   }
-  img[src="./images/Céjo.png"]{
+  img[src="../images/Céjo.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -160,7 +163,7 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 35px;
 	border-radius:50px;
   }
-  img[src="./images/Annecy.png"]{
+  img[src="../images/Annecy.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -168,7 +171,7 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:40px;
   }
-  img[src="./images/USP.png"]{
+  img[src="../images/USP.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -176,7 +179,13 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:40px;
   }
-  img[src="./images/Skiclub.png"]{
+  img[src="../images/foot u20.jpg"]{
+	max-height :450px;
+	float : center;
+	padding-top:50px;
+	padding-bottom: 15px;
+  }
+  img[src="../images/Skiclub.png"]{
 	max-height :650px;
 	float : center;
 	padding-right:35px;
@@ -184,7 +193,7 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:60px;
   }
-  img[src="./images/VTT.png"]{
+  img[src="../images/VTT.png"]{
 	max-height :450px;
 	float : center;
 	padding-right:35px;
@@ -192,3 +201,83 @@ p>img[src="./images/Projet interaction.png"] {
 	padding-bottom: 15px;
 	border-radius:40px;
   }
+
+  img[src="../images/hugo.jpg"]{
+	max-height :450px;
+	float : left;
+	padding-top:50px;
+	padding-bottom: 15px;
+  }
+  img[src="../images/verne.jpg"]{
+	max-height :450px;
+	float : center;
+	padding-top:50px;
+	padding-bottom: 15px;
+  }
+  img[src="../images/zola.jpg"]{
+	max-height :450px;
+	float : right;
+	padding-right: 45px;
+	padding-top:50px;
+	padding-bottom: 15px;
+  }
+  img[src="../images/projet integratif.png"] {
+	max-height :500px;
+	float : center;
+	padding-right:35px;
+	padding-top:30px;
+	border-radius:0px;
+  }
+article p {
+    text-align: center;
+    margin-top: 10px;
+}
+.address-link {
+    color: black;
+    text-decoration: underline;
+}
+ul.bullet-points-left {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 1.5em; 
+}
+ul.bullet-points-left li {
+    position: relative;
+    margin-left: 1.5em; 
+}
+ul.bullet-points-left li::before {
+    content: "\2022"; 
+	position: absolute;
+    left: -1.5em; 
+}
+
+
+ul.bullet-points-left li {
+    text-align: left;
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-label {
+    margin-right: 10px; 
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    width: 35%;
+    margin-right: 10px;
+    height: 20px;
+}
+.progress {
+    background-color: green;
+    height: 100%;
+    border-radius: 10px;
+    width: 85%; 
+}
+
+.progress-percentage {
+    font-weight: bold;
+}
